@@ -1,6 +1,7 @@
 # MACHINE_LEARNING_PROJECT - SUPERVISED-LEARNING
 
 ### DURATION:
+
 Approximately 3 hours and 20 minutes.
 
 
@@ -18,8 +19,8 @@ Using supervised learning techniques to build a machine learning model that can 
 ## PROJECT/GOALS
 
      1. Our project has the primary goal of using supervised learning techniques
-         to build a machine learning model that can predict whether a patient has
-         diabetes or not, based on certain diagnostic measurements.
+        to build a machine learning model that can predict whether a patient has
+        diabetes or not, based on certain diagnostic measurements.
 
      2. Communicate these insights to stakeholders using appropriate visualization
         and metrics. 
@@ -34,17 +35,17 @@ Using supervised learning techniques to build a machine learning model that can 
      The datasets consists of several medical predictor variables and one target variable,
      Outcome. Predictor variables includes:
 
-      Pregnancies: Number of times pregnant
-      Glucose: Plasma glucose concentration a 2 hours in an oral glucose tolerance test
-      BloodPressure: Diastolic blood pressure (mm Hg)
-      SkinThickness: Triceps skin fold thickness (mm)
-      Insulin: 2-Hour serum insulin (mu U/ml)
-      BMI: Body mass index (weight in kg/(height in m)^2)
-      DiabetesPedigreeFunction: Diabetes pedigree function
-      Age: Age (years)
-      Outcome: Class variable (0 or 1)
-      Number of Observation Units: 768
-      Variable Number: 9
+      - Pregnancies: Number of times pregnant
+      - Glucose: Plasma glucose concentration a 2 hours in an oral glucose tolerance test
+      - BloodPressure: Diastolic blood pressure (mm Hg)
+      - SkinThickness: Triceps skin fold thickness (mm)
+      - Insulin: 2-Hour serum insulin (mu U/ml)
+      - BMI: Body mass index (weight in kg/(height in m)^2)
+      - DiabetesPedigreeFunction: Diabetes pedigree function
+      - Age: Age (years)
+      - Outcome: Class variable (0 or 1)
+      - Number of Observation Units: 768
+      - Variable Number: 9
   
      2. Clean the dataset.
   
@@ -84,7 +85,7 @@ Using supervised learning techniques to build a machine learning model that can 
 
 ### STEP 4: CONCLUSION
 
-Exploratory Data Analysis (EDA) Insights:
+**Exploratory Data Analysis (EDA) Insights:**
 
     During our exploration of the data, the following were observed:
 
@@ -103,7 +104,7 @@ Exploratory Data Analysis (EDA) Insights:
 
      4. There is strong interactive effect among the predictor variables.
 
-Machine Model Insights:
+**Machine Model Insights:**
 
      1. Models chosen were Support Vector Classifier (SVC) and RandomForestClassifier (RFC).
 
