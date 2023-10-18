@@ -49,7 +49,7 @@ Using supervised learning techniques to build a machine learning model that can 
   
      2. Clean the dataset.
   
-     3.  Visualize data patterns and correlations
+     3. Visualize data patterns and correlations
 
      4. Prepare for data modelling
 
