@@ -71,11 +71,15 @@ Using supervised learning techniques to build a machine learning model that can 
 
      1. Train the models: Train the selected models on the training set.
 
-     2. Model evaluation: Evaluate the trained models on the testing set using appropriate evaluation metrics, such as accuracy, precision, recall, F1-score, and ROC-AUC.
+     2. Model evaluation: Evaluate the trained models on the testing set
+        using appropriate evaluation metrics, such as accuracy, precision,
+        recall, F1-score, and ROC-AUC.
 
-     3. Improve model performance: perform additional analysis, such as model tuning and cross-validation
+     3. Improve model performance: perform additional analysis, such as
+        model tuning and cross-validation
 
-     4. Model comparison: Compare the performance of the selected models and choose the best-performing model based on the evaluation metrics.
+     4. Model comparison: Compare the performance of the selected
+        models and choose the best-performing model based on the evaluation metrics.
 
 
 ### STEP 4: CONCLUSION
@@ -84,11 +88,18 @@ Exploratory Data Analysis (EDA) Insights:
 
     During our exploration of the data, the following were observed:
 
-     1. Glucose levels exhibit a strong correlation coefficient of approximately 0.47, indicating their significance as a robust indicator of diabetes. In contrast, both BloodPressure and SkinThickness display lower correlation coefficients of around 0.07, suggesting they are weaker indicators of diabetes.
+     1. Glucose levels exhibit a strong correlation coefficient of approximately 0.47,
+        indicating their significance as a robust indicator of diabetes.
+        In contrast, both BloodPressure and SkinThickness display lower correlation
+        coefficients of around 0.07, suggesting they are weaker indicators of diabetes.
 
-     2. When the predictor correlations were examined, there are 2 predictor variables that act as a positive correlation to the Outcome dependent variable. These variables are Glucose and BMI, followed by pregnacies. As these increase, Outcome variable increases.
+     2. When the predictor correlations were examined, there are 2 predictor variables
+        that act as a positive correlation to the Outcome dependent variable.
+        These variables are Glucose and BMI, followed by pregnacies.
+        As these increase, Outcome variable increases.
 
-     3. The age group between 21 and 45 years predominantly experiences diabetes, as revealed by the EDA.
+     3. The age group between 21 and 45 years predominantly experiences diabetes,
+        as revealed by the EDA.
 
      4. There is strong interactive effect among the predictor variables.
 
@@ -96,11 +107,14 @@ Machine Model Insights:
 
      1. Models chosen were Support Vector Classifier (SVC) and RandomForestClassifier (RFC).
 
-     2. After training and testing, performed evaluation matrix the RFC model performed better based on accuracy. 
+     2. After training and testing, performed evaluation matrix the RFC model
+        performed better based on accuracy. 
 
-     3. Further hyperparameter optimization the accuracy of the RFC model stands out at 78%, surpassing that of SVC Model which was at 72%.
+     3. Further hyperparameter optimization the accuracy of the RFC model stands
+        out at 78%, surpassing that of SVC Model which was at 72%.
 
-     4. Based on the significant score level Plasma glucose concentration is the most important feature
+     4. Based on the significant score level Plasma glucose concentration is the
+        most important feature
 
 ## RESULTS
 
